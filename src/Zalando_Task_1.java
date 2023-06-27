@@ -1,0 +1,29 @@
+public class Zalando_Task_1 {
+    public static void main(String[] args) {
+        int in = 89748;//1041;//9;
+        solution(in);
+    }
+    public static void solution(int N) {
+        int enable_print = 0;
+        while (N > 0) {
+            if (N % 10 != 0) {
+                enable_print = 1;
+            }
+            if (enable_print == 1) {
+                System.out.print(N % 10);
+            }
+            N = N / 10;
+        }
+    }
+/*
+You are given an implementation of a function solution that, given a positive integer N, prints to standard output another integer, which was formed by reversing a decimal representation of N. The leading zeros of the resulting integer should not be printed by the function. Examples:
+
+1. Given N = 54321, the function should print 12345.
+
+2. Given N = 10011, the function should print 11001.
+
+3. Given N = 1, the function should print 1.
+
+The attached code is still incorrect for some inputs. Despite the error(s), the code may produce a correct answer for the example test cases. The goal of the exercise is to find and fix the bug(s) in the implementation. You can modify at most three lines.
+ */
+}
