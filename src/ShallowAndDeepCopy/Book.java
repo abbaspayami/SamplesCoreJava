@@ -2,7 +2,7 @@ package ShallowAndDeepCopy;
 
 import java.util.Arrays;
 
-public class Book {
+public class Book implements Cloneable{
 
     private String title;
     private String[] authors;
@@ -37,5 +37,9 @@ public class Book {
         return new Book(this.title, authorsCopy);
     }
 
+    @Override
+    protected Book clone() throws CloneNotSupportedException {
+        return (Book) super.clone();
+    }
 }
 
