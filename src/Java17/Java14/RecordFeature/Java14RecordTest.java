@@ -1,6 +1,6 @@
-package Java17;
+package Java17.Java14.RecordFeature;
 
-import Java17.RecordFeature.EmployeeRecord;
+import Java17.Java14.RecordFeature.EmployeeRecord;
 
 public class Java14RecordTest {
     public static void main(String[] args) {
