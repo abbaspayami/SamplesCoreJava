@@ -1,4 +1,4 @@
-package DesignPattern;
+package DesignPattern.Singelton;
 
 public class SingletonClass {
     private static SingletonClass instance;
