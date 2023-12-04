@@ -5,4 +5,9 @@ public class Truck implements Transport {
     public void deliver() {
         System.out.println("Truck is delivering..");
     }
+
+//    @Override
+//    public boolean isMe(TransportEnum en) {
+//        return TransportEnum.Truck.equals(en);
+//    }
 }

@@ -13,7 +13,7 @@ public class ShallowCopyExample {
         shallowCopy.getAuthors()[0] = "Bob Johnson";
 
 
-        System.out.println(book.getTitle());              // Output: Python Programming
+        System.out.println(book.getTitle());              // Output: Java Programming
         System.out.println(Arrays.toString(book.getAuthors()));  // Output: [Bob Johnson, Jane Smith]
 
         System.out.println(shallowCopy.getTitle());       // Output: Python Programming

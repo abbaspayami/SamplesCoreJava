@@ -6,6 +6,6 @@ public class MainBuilder {
                 .Builder()
                 .setProperty2("Abbas", "Payami")
                 .build();
-        System.out.println(product.getProperty2());
+        System.out.println(product.getProperty1() + ":" + product.getProperty2() + ":" + product.getProperty3());
     }
 }

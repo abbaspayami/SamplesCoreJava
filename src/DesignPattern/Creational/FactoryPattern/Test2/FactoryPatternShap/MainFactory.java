@@ -4,9 +4,8 @@ import DesignPattern.Creational.FactoryPattern.Test2.FactoryPatternShap.model.Sh
 
 public class MainFactory {
     public static void main(String[] args) {
-        ShapeFactory shapeFactory = new ShapeFactory();
-        Shape circle = shapeFactory.createShape("rectangle");
-        circle.draw();
+        Shape circleFactory = new CircleFactory().createShape();
+        circleFactory.draw();
 
     }
 }

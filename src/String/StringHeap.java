@@ -8,6 +8,9 @@ public class StringHeap {
         String s2 = "Abbas";
 
         if (s1 == s2) {
+            System.out.println("There are ==...");
+        }
+        if (s1.equals(s2)) {
             System.out.println("There are equals...");
         }
     }

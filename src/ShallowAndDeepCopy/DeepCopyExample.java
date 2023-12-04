@@ -13,8 +13,8 @@ public class DeepCopyExample {
         deepCopy.setTitle("JavaScript Programming");
         deepCopy.getAuthors()[1] = "Emily Brown";
 
-        System.out.println(book.getTitle());              // Output: Python Programming
-        System.out.println(Arrays.toString(book.getAuthors()));  // Output: [Bob Johnson, Jane Smith]
+        System.out.println(book.getTitle());              // Output: Java Programming
+        System.out.println(Arrays.toString(book.getAuthors()));  // Output: [John Doe, Jane Smith]
 
         System.out.println(deepCopy.getTitle());          // Output: JavaScript Programming
         System.out.println(Arrays.toString(deepCopy.getAuthors()));  // Output: [John Doe, Emily Brown]

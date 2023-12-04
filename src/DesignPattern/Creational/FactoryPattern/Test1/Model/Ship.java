@@ -6,4 +6,9 @@ public class Ship implements Transport {
         System.out.println("Ship is delivering...");
 
     }
+
+//    @Override
+//    public boolean isMe(TransportEnum en) {
+//        return TransportEnum.Ship.equals(en);
+//    }
 }
